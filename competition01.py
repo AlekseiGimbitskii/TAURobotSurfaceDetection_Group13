@@ -64,7 +64,7 @@ def spectrogramFeature(X_train):
 
 
 #-----------------load data---------------------
-#X_test = np.load("X_test_kaggle.npy")
+X_test_submission = np.load("X_test_kaggle.npy")
 X_train = np.load("X_train_kaggle.npy")
 y_train = np.loadtxt("y_train_final_kaggle.csv", dtype = np.str , delimiter = ',', usecols=(0,1), unpack=False)
 y_train = y_train[:,1] 
@@ -112,6 +112,19 @@ for model in modelList:
     model.fit(spectrogramFeature(X_train), y_train)
     score = accuracy_score(y_test, model.predict(spectrogramFeature(X_test)))    
     print(f'Feature: spectrogram , Score: {score}')
+
+
+#-------------create submission------------
+model = KNeighborsClassifier()
+model.fit(average(X_train), y_train)
+y_pred = model.predict(average(X_test_submission))
+#labels = list(le.inverse_transform(y_pred))
+labels = y_pred
+
+with open("submission.csv", "w") as fp:
+    fp.write("# Id,Surface\n")
+    for i, label in enumerate(labels):
+        fp.write("%d,%s\n" % (i, label))
 
 '''
 stupidResize(X_train)
