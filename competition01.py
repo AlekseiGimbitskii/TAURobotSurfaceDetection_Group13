@@ -18,6 +18,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 
 
@@ -91,12 +92,19 @@ modelList.append(KNeighborsClassifier())
 modelList.append(LinearDiscriminantAnalysis())
 modelList.append(SVC())
 modelList.append(LogisticRegression())
+modelList.append(RandomForestClassifier())
+
+
 
 
 
 for model in modelList:
     modelName = type(model).__name__
     print(f'Name model: {modelName}')
+#    model.fit(X_train, y_train)
+#    score = accuracy_score(y_test, model.predict(X_test))    
+#    print(f'Feature: none , Score: {score}')
+    
     model.fit(stupidResize(X_train), y_train)
     score = accuracy_score(y_test, model.predict(stupidResize(X_test)))    
     print(f'Feature: resize , Score: {score}')
