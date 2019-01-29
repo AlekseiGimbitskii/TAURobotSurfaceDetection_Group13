@@ -88,7 +88,7 @@ X_train, X_test, y_train, y_test = train_test_split(X_train, y_train[:,0], test_
 #------------------classification with different models-----------
 
 modelList = []
-modelList.append(KNeighborsClassifier())
+modelList.append(KNeighborsClassifier(n_neighbors = 3))
 modelList.append(LinearDiscriminantAnalysis())
 modelList.append(SVC())
 modelList.append(LogisticRegression())
@@ -101,9 +101,6 @@ modelList.append(RandomForestClassifier())
 for model in modelList:
     modelName = type(model).__name__
     print(f'Name model: {modelName}')
-#    model.fit(X_train, y_train)
-#    score = accuracy_score(y_test, model.predict(X_test))    
-#    print(f'Feature: none , Score: {score}')
     
     model.fit(stupidResize(X_train), y_train)
     score = accuracy_score(y_test, model.predict(stupidResize(X_test)))    
@@ -123,9 +120,9 @@ for model in modelList:
 
 
 #-------------create submission------------
-model = KNeighborsClassifier()
-model.fit(average(X_train), y_train)
-y_pred = model.predict(average(X_test_submission))
+model = RandomForestClassifier()
+model.fit(averageAndDeviation(X_train), y_train)
+y_pred = model.predict(averageAndDeviation(X_test_submission))
 #labels = list(le.inverse_transform(y_pred))
 labels = y_pred
 
