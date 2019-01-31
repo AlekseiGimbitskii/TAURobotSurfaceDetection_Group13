@@ -20,6 +20,10 @@ from sklearn.svm import SVC
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import ExtraTreesClassifier
+from sklearn.ensemble import AdaBoostRegressor
+from sklearn.ensemble import GradientBoostingClassifier
 
 
 #------------feature extraction functions-------------
@@ -93,6 +97,10 @@ modelList.append(LinearDiscriminantAnalysis())
 modelList.append(SVC())
 modelList.append(LogisticRegression())
 modelList.append(RandomForestClassifier())
+modelList.append(RandomForestClassifier(n_estimators = 100))
+modelList.append(ExtraTreesClassifier(n_estimators = 100))
+#modelList.append(AdaBoostRegressor(n_estimators = 100))
+#modelList.append(GradientBoostingClassifier(n_estimators = 100)) #bad performance
 
 
 
@@ -120,7 +128,7 @@ for model in modelList:
 
 
 #-------------create submission------------
-model = RandomForestClassifier()
+model = ExtraTreesClassifier()
 model.fit(averageAndDeviation(X_train), y_train)
 y_pred = model.predict(averageAndDeviation(X_test_submission))
 #labels = list(le.inverse_transform(y_pred))
