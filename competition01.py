@@ -84,8 +84,8 @@ y_train = np.column_stack((y_train, classes)) # stack stings and their indexes
 #dont understand what they want, seems like they already shuffled the data
 X_train, X_test, y_train, y_test = train_test_split(X_train, y_train[:,0], test_size=0.2)
 
-#------------------classification with different models-----------
 
+#------------------classification with different models-----------
 modelList = []
 modelList.append(KNeighborsClassifier())
 modelList.append(LinearDiscriminantAnalysis())
