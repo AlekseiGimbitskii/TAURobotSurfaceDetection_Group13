@@ -18,7 +18,12 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import ExtraTreesClassifier
+from sklearn.ensemble import AdaBoostRegressor
+from sklearn.ensemble import GradientBoostingClassifier
 
 
 #------------feature extraction functions-------------
@@ -64,7 +69,7 @@ def spectrogramFeature(X_train):
 
 
 #-----------------load data---------------------
-#X_test = np.load("X_test_kaggle.npy")
+X_test_submission = np.load("X_test_kaggle.npy")
 X_train = np.load("X_train_kaggle.npy")
 y_train = np.loadtxt("y_train_final_kaggle.csv", dtype = np.str , delimiter = ',', usecols=(0,1), unpack=False)
 y_train = y_train[:,1] 
@@ -87,16 +92,24 @@ X_train, X_test, y_train, y_test = train_test_split(X_train, y_train[:,0], test_
 
 #------------------classification with different models-----------
 modelList = []
-modelList.append(KNeighborsClassifier())
+modelList.append(KNeighborsClassifier(n_neighbors = 3))
 modelList.append(LinearDiscriminantAnalysis())
 modelList.append(SVC())
 modelList.append(LogisticRegression())
+modelList.append(RandomForestClassifier())
+modelList.append(RandomForestClassifier(n_estimators = 100))
+modelList.append(ExtraTreesClassifier(n_estimators = 100))
+#modelList.append(AdaBoostRegressor(n_estimators = 100))
+#modelList.append(GradientBoostingClassifier(n_estimators = 100)) #bad performance
+
+
 
 
 
 for model in modelList:
     modelName = type(model).__name__
     print(f'Name model: {modelName}')
+    
     model.fit(stupidResize(X_train), y_train)
     score = accuracy_score(y_test, model.predict(stupidResize(X_test)))    
     print(f'Feature: resize , Score: {score}')
@@ -112,6 +125,19 @@ for model in modelList:
     model.fit(spectrogramFeature(X_train), y_train)
     score = accuracy_score(y_test, model.predict(spectrogramFeature(X_test)))    
     print(f'Feature: spectrogram , Score: {score}')
+
+
+#-------------create submission------------
+model = ExtraTreesClassifier()
+model.fit(averageAndDeviation(X_train), y_train)
+y_pred = model.predict(averageAndDeviation(X_test_submission))
+#labels = list(le.inverse_transform(y_pred))
+labels = y_pred
+
+with open("submission.csv", "w") as fp:
+    fp.write("# Id,Surface\n")
+    for i, label in enumerate(labels):
+        fp.write("%d,%s\n" % (i, label))
 
 '''
 stupidResize(X_train)
