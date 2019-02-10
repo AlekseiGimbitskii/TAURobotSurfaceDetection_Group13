@@ -45,28 +45,27 @@ def averageAndDeviation(X_train):
     return X_train
 
 
-#I hope that vibration of robot somehow related to the surface
-#so I compute spectrogram of accelerometer data over all axes
-#and put it in one vector
-def spectrogramFeature(X_train):   
-    result = [] 
-    for i in range(X_train.shape[0]):
-        fx, t, Sx = signal.spectrogram(X_train[i,7,:]) #accelerometer.X
-        fy, t, Sy = signal.spectrogram(X_train[i,8,:]) #accelerometer.Y
-        fz, t, Sz = signal.spectrogram(X_train[i,9,:]) #accelerometer.Z
-        S = np.concatenate((Sx,Sy,Sz), axis=None)
-        result.append(S)
-    
-    X_train = np.array(result)
+def filteredFeature(X_train):
+    X_train = X_train[:,[0,1,2,3],:]
+    average = np.mean(X_train, axis=2)
+    std = np.std(X_train, axis=2)
+    X_train = np.concatenate((average,std), axis=1)   
+       
     #print(X_train.shape)
-    return X_train
-        
+    return X_train     
 
+def vectorLengthsFeature(X_train):
+    #Orientation = np.sqrt(np.power((X_train[:,[0],:]/X_train[:,[3],:]),2)+np.power((X_train[:,[1],:]/X_train[:,[3],:]),2)+np.power((X_train[:,[2],:]/X_train[:,[3],:]),2))
+    AngularVelocity = np.sqrt(np.power(X_train[:,[4],:],2)+np.power(X_train[:,[5],:],2)+np.power(X_train[:,[6],:],2))
+    LinearAcceleration = np.sqrt(np.power(X_train[:,[7],:],2)+np.power(X_train[:,[8],:],2)+np.power(X_train[:,[9],:],2))
+    X_train = np.concatenate((X_train[:,[0],:],X_train[:,[1],:],X_train[:,[2],:],X_train[:,[3],:],AngularVelocity,LinearAcceleration ), axis=1) 
 
-
+    average = np.mean(X_train, axis=2)
+    std = np.std(X_train, axis=2)
+    X_train = np.concatenate((average,std), axis=1)  
     
-
-
+    #print(X_train.shape)
+    return X_train   
 
 #-----------------load data---------------------
 X_test_submission = np.load("X_test_kaggle.npy")
@@ -92,13 +91,13 @@ X_train, X_test, y_train, y_test = train_test_split(X_train, y_train[:,0], test_
 
 #------------------classification with different models-----------
 modelList = []
-modelList.append(KNeighborsClassifier(n_neighbors = 3))
+modelList.append(KNeighborsClassifier(n_neighbors = 1))
 modelList.append(LinearDiscriminantAnalysis())
 modelList.append(SVC())
 modelList.append(LogisticRegression())
 modelList.append(RandomForestClassifier())
 modelList.append(RandomForestClassifier(n_estimators = 100))
-modelList.append(ExtraTreesClassifier(n_estimators = 100))
+modelList.append(ExtraTreesClassifier(n_estimators = 1000))
 #modelList.append(AdaBoostRegressor(n_estimators = 100))
 #modelList.append(GradientBoostingClassifier(n_estimators = 100)) #bad performance
 
@@ -122,17 +121,22 @@ for model in modelList:
     score = accuracy_score(y_test, model.predict(averageAndDeviation(X_test)))    
     print(f'Feature: average and std_deviation , Score: {score}')
 
-    model.fit(spectrogramFeature(X_train), y_train)
-    score = accuracy_score(y_test, model.predict(spectrogramFeature(X_test)))    
-    print(f'Feature: spectrogram , Score: {score}')
+    model.fit(filteredFeature(X_train), y_train)
+    score = accuracy_score(y_test, model.predict(filteredFeature(X_test)))    
+    print(f'Feature: Filtered , Score: {score}')
+
+    model.fit(vectorLengthsFeature(X_train), y_train)
+    score = accuracy_score(y_test, model.predict(vectorLengthsFeature(X_test)))    
+    print(f'Feature: vectorLengths , Score: {score}')
 
 
 #-------------create submission------------
-model = ExtraTreesClassifier()
-model.fit(averageAndDeviation(X_train), y_train)
-y_pred = model.predict(averageAndDeviation(X_test_submission))
+model = ExtraTreesClassifier(n_estimators = 1000)
+model.fit(vectorLengthsFeature(X_train), y_train)
+y_pred = model.predict(vectorLengthsFeature(X_test_submission))
 #labels = list(le.inverse_transform(y_pred))
 labels = y_pred
+
 
 with open("submission.csv", "w") as fp:
     fp.write("# Id,Surface\n")
