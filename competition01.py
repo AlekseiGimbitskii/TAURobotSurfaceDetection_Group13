@@ -42,7 +42,7 @@ def averageAndDeviation(X_train):
     std = np.std(X_train, axis=2)
     X_train = np.concatenate((average,std), axis=1)
     #print(X_train.shape)    
-    return X_train
+    return dataNormalization(X_train)
 
 
 def filteredFeature(X_train):
@@ -65,8 +65,12 @@ def vectorLengthsFeature(X_train):
     X_train = np.concatenate((average,std), axis=1)  
     
     #print(X_train.shape)
-    return X_train   
+    return dataNormalization(X_train)
 
+def dataNormalization(X_train):
+    for i in range(X_train.shape[1]):
+        X_train[:, i] = X_train[:, i] / np.max(X_train[:, i])
+    return X_train
 #-----------------load data---------------------
 X_test_submission = np.load("X_test_kaggle.npy")
 X_train = np.load("X_train_kaggle.npy")
@@ -101,39 +105,43 @@ modelList.append(ExtraTreesClassifier(n_estimators = 1000))
 #modelList.append(AdaBoostRegressor(n_estimators = 100))
 #modelList.append(GradientBoostingClassifier(n_estimators = 100)) #bad performance
 
-
-
-
-
+global_max_score = []
+global_model = []
 for model in modelList:
+    max_score = []
     modelName = type(model).__name__
     print(f'Name model: {modelName}')
     
     model.fit(stupidResize(X_train), y_train)
     score = accuracy_score(y_test, model.predict(stupidResize(X_test)))    
     print(f'Feature: resize , Score: {score}')
-
+    max_score.append(score)
     model.fit(average(X_train), y_train)
     score = accuracy_score(y_test, model.predict(average(X_test)))    
     print(f'Feature: averaging , Score: {score}')
-
+    max_score.append(score)
     model.fit(averageAndDeviation(X_train), y_train)
     score = accuracy_score(y_test, model.predict(averageAndDeviation(X_test)))    
     print(f'Feature: average and std_deviation , Score: {score}')
-
+    max_score.append(score)
     model.fit(filteredFeature(X_train), y_train)
     score = accuracy_score(y_test, model.predict(filteredFeature(X_test)))    
     print(f'Feature: Filtered , Score: {score}')
-
+    max_score.append(score)
     model.fit(vectorLengthsFeature(X_train), y_train)
     score = accuracy_score(y_test, model.predict(vectorLengthsFeature(X_test)))    
     print(f'Feature: vectorLengths , Score: {score}')
+    max_score.append(score)
+    print(f'Name model MAX SCORE: {max(max_score)}, model_id: {np.argmax(max_score)}')
+    global_max_score.append(max(max_score))
+    global_model.append(np.argmax(max_score))
 
+print(f'MAX SCORE: {max(global_max_score)}, ID GLOBAL: {np.argmax(global_max_score)}, model_ids: {global_model}')
 
 #-------------create submission------------
 model = ExtraTreesClassifier(n_estimators = 1000)
-model.fit(vectorLengthsFeature(X_train), y_train)
-y_pred = model.predict(vectorLengthsFeature(X_test_submission))
+model.fit(averageAndDeviation(X_train), y_train)
+y_pred = model.predict(averageAndDeviation(X_test_submission))
 #labels = list(le.inverse_transform(y_pred))
 labels = y_pred
 
