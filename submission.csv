@@ -7,6 +7,7 @@
 5,soft_pvc
 6,fine_concrete
 7,soft_tiles
+<<<<<<< HEAD
 8,concrete
 9,soft_pvc
 10,carpet
@@ -16,6 +17,17 @@
 14,soft_pvc
 15,concrete
 16,fine_concrete
+=======
+8,soft_pvc
+9,fine_concrete
+10,carpet
+11,carpet
+12,hard_tiles
+13,tiled
+14,soft_pvc
+15,hard_tiles
+16,tiled
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 17,carpet
 18,hard_tiles
 19,soft_pvc
@@ -23,9 +35,15 @@
 21,hard_tiles
 22,carpet
 23,soft_pvc
+<<<<<<< HEAD
 24,fine_concrete
 25,fine_concrete
 26,carpet
+=======
+24,tiled
+25,hard_tiles
+26,hard_tiles_large_space
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 27,carpet
 28,carpet
 29,soft_pvc
@@ -33,7 +51,11 @@
 31,carpet
 32,hard_tiles
 33,soft_tiles
+<<<<<<< HEAD
 34,hard_tiles
+=======
+34,concrete
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 35,carpet
 36,soft_tiles
 37,tiled
@@ -59,8 +81,13 @@
 57,concrete
 58,fine_concrete
 59,carpet
+<<<<<<< HEAD
 60,fine_concrete
 61,carpet
+=======
+60,tiled
+61,concrete
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 62,soft_pvc
 63,hard_tiles_large_space
 64,soft_tiles
@@ -74,9 +101,15 @@
 72,hard_tiles
 73,carpet
 74,carpet
+<<<<<<< HEAD
 75,fine_concrete
 76,soft_pvc
 77,soft_tiles
+=======
+75,tiled
+76,soft_pvc
+77,tiled
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 78,hard_tiles
 79,hard_tiles
 80,soft_pvc
@@ -89,7 +122,11 @@
 87,carpet
 88,carpet
 89,soft_pvc
+<<<<<<< HEAD
 90,hard_tiles_large_space
+=======
+90,hard_tiles
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 91,soft_tiles
 92,carpet
 93,hard_tiles_large_space
@@ -117,21 +154,36 @@
 115,soft_tiles
 116,soft_pvc
 117,hard_tiles
+<<<<<<< HEAD
 118,soft_pvc
 119,soft_tiles
 120,hard_tiles
 121,carpet
+=======
+118,carpet
+119,tiled
+120,hard_tiles_large_space
+121,soft_pvc
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 122,hard_tiles
 123,hard_tiles_large_space
 124,carpet
 125,soft_pvc
+<<<<<<< HEAD
 126,fine_concrete
+=======
+126,hard_tiles
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 127,carpet
 128,soft_pvc
 129,carpet
 130,hard_tiles_large_space
 131,carpet
+<<<<<<< HEAD
 132,carpet
+=======
+132,soft_pvc
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 133,soft_pvc
 134,fine_concrete
 135,soft_pvc
@@ -141,8 +193,13 @@
 139,carpet
 140,soft_tiles
 141,carpet
+<<<<<<< HEAD
 142,hard_tiles_large_space
 143,fine_concrete
+=======
+142,soft_pvc
+143,carpet
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 144,fine_concrete
 145,carpet
 146,hard_tiles
@@ -178,7 +235,11 @@
 176,carpet
 177,carpet
 178,carpet
+<<<<<<< HEAD
 179,carpet
+=======
+179,concrete
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 180,hard_tiles
 181,carpet
 182,soft_pvc
@@ -194,17 +255,28 @@
 192,soft_pvc
 193,fine_concrete
 194,hard_tiles
+<<<<<<< HEAD
 195,fine_concrete
 196,carpet
 197,fine_concrete
+=======
+195,tiled
+196,concrete
+197,tiled
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 198,soft_pvc
 199,fine_concrete
 200,hard_tiles_large_space
 201,soft_pvc
 202,soft_pvc
 203,fine_concrete
+<<<<<<< HEAD
 204,fine_concrete
 205,carpet
+=======
+204,hard_tiles
+205,soft_pvc
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 206,concrete
 207,hard_tiles
 208,fine_concrete
@@ -234,7 +306,11 @@
 232,soft_tiles
 233,tiled
 234,carpet
+<<<<<<< HEAD
 235,fine_concrete
+=======
+235,hard_tiles
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 236,carpet
 237,soft_pvc
 238,hard_tiles_large_space
@@ -279,18 +355,29 @@
 277,fine_concrete
 278,soft_pvc
 279,carpet
+<<<<<<< HEAD
 280,hard_tiles_large_space
+=======
+280,soft_pvc
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 281,carpet
 282,soft_pvc
 283,carpet
 284,carpet
 285,carpet
-286,tiled
+286,hard_tiles
 287,carpet
+<<<<<<< HEAD
 288,fine_concrete
 289,hard_tiles_large_space
 290,hard_tiles
 291,fine_concrete
+=======
+288,hard_tiles
+289,concrete
+290,hard_tiles_large_space
+291,soft_pvc
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 292,carpet
 293,soft_pvc
 294,fine_concrete
@@ -308,12 +395,21 @@
 306,soft_pvc
 307,carpet
 308,soft_pvc
+<<<<<<< HEAD
 309,fine_concrete
 310,soft_pvc
 311,fine_concrete
 312,fine_concrete
 313,carpet
 314,fine_concrete
+=======
+309,soft_pvc
+310,carpet
+311,tiled
+312,hard_tiles
+313,soft_pvc
+314,hard_tiles
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 315,soft_pvc
 316,carpet
 317,fine_concrete
@@ -334,7 +430,7 @@
 332,soft_pvc
 333,soft_tiles
 334,soft_tiles
-335,carpet
+335,concrete
 336,soft_pvc
 337,soft_pvc
 338,fine_concrete
@@ -361,19 +457,30 @@
 359,hard_tiles
 360,hard_tiles
 361,carpet
+<<<<<<< HEAD
 362,fine_concrete
 363,hard_tiles_large_space
+=======
+362,hard_tiles
+363,concrete
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 364,fine_concrete
 365,fine_concrete
 366,hard_tiles
-367,carpet
+367,soft_pvc
 368,hard_tiles
 369,carpet
 370,soft_pvc
 371,soft_pvc
+<<<<<<< HEAD
 372,fine_concrete
 373,fine_concrete
 374,fine_concrete
+=======
+372,tiled
+373,hard_tiles
+374,tiled
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 375,carpet
 376,carpet
 377,soft_tiles
@@ -391,7 +498,7 @@
 389,concrete
 390,tiled
 391,carpet
-392,soft_pvc
+392,concrete
 393,hard_tiles
 394,fine_concrete
 395,hard_tiles
@@ -402,10 +509,17 @@
 400,soft_pvc
 401,soft_pvc
 402,soft_pvc
+<<<<<<< HEAD
 403,soft_tiles
 404,soft_pvc
 405,hard_tiles
 406,carpet
+=======
+403,tiled
+404,soft_tiles
+405,hard_tiles
+406,soft_pvc
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 407,soft_pvc
 408,soft_pvc
 409,carpet
@@ -438,11 +552,19 @@
 436,soft_pvc
 437,fine_concrete
 438,soft_pvc
+<<<<<<< HEAD
 439,fine_concrete
 440,soft_pvc
 441,carpet
 442,carpet
 443,soft_pvc
+=======
+439,hard_tiles
+440,soft_pvc
+441,carpet
+442,carpet
+443,soft_tiles
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 444,soft_pvc
 445,carpet
 446,soft_pvc
@@ -452,7 +574,11 @@
 450,soft_pvc
 451,hard_tiles
 452,soft_pvc
+<<<<<<< HEAD
 453,soft_pvc
+=======
+453,fine_concrete
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 454,tiled
 455,soft_pvc
 456,fine_concrete
@@ -460,8 +586,13 @@
 458,fine_concrete
 459,soft_pvc
 460,carpet
+<<<<<<< HEAD
 461,carpet
 462,soft_pvc
+=======
+461,soft_pvc
+462,concrete
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 463,carpet
 464,soft_pvc
 465,hard_tiles
@@ -480,7 +611,7 @@
 478,hard_tiles_large_space
 479,soft_pvc
 480,carpet
-481,hard_tiles_large_space
+481,concrete
 482,soft_pvc
 483,carpet
 484,soft_tiles
@@ -493,18 +624,30 @@
 491,soft_tiles
 492,hard_tiles
 493,carpet
+<<<<<<< HEAD
 494,soft_pvc
 495,carpet
 496,carpet
 497,carpet
 498,fine_concrete
+=======
+494,concrete
+495,carpet
+496,carpet
+497,carpet
+498,hard_tiles
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 499,concrete
 500,soft_pvc
 501,soft_pvc
 502,soft_tiles
 503,hard_tiles
 504,carpet
+<<<<<<< HEAD
 505,soft_tiles
+=======
+505,fine_concrete
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 506,hard_tiles
 507,fine_concrete
 508,carpet
@@ -546,7 +689,11 @@
 544,soft_pvc
 545,soft_tiles
 546,soft_tiles
+<<<<<<< HEAD
 547,fine_concrete
+=======
+547,tiled
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 548,carpet
 549,concrete
 550,fine_concrete
@@ -555,7 +702,7 @@
 553,carpet
 554,fine_concrete
 555,soft_pvc
-556,carpet
+556,soft_pvc
 557,carpet
 558,carpet
 559,soft_tiles
@@ -568,18 +715,24 @@
 566,hard_tiles_large_space
 567,hard_tiles
 568,carpet
-569,soft_tiles
+569,tiled
 570,carpet
 571,hard_tiles_large_space
 572,hard_tiles_large_space
 573,carpet
 574,fine_concrete
 575,soft_pvc
+<<<<<<< HEAD
 576,fine_concrete
 577,soft_pvc
 578,fine_concrete
+=======
+576,soft_pvc
+577,soft_pvc
+578,tiled
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 579,carpet
-580,hard_tiles
+580,hard_tiles_large_space
 581,soft_pvc
 582,soft_pvc
 583,hard_tiles
@@ -596,8 +749,13 @@
 594,hard_tiles
 595,fine_concrete
 596,hard_tiles
+<<<<<<< HEAD
 597,soft_pvc
 598,soft_pvc
+=======
+597,tiled
+598,fine_concrete
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 599,soft_pvc
 600,soft_pvc
 601,concrete
@@ -608,9 +766,15 @@
 606,soft_pvc
 607,hard_tiles
 608,carpet
+<<<<<<< HEAD
 609,fine_concrete
 610,fine_concrete
 611,fine_concrete
+=======
+609,tiled
+610,hard_tiles
+611,tiled
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 612,soft_pvc
 613,soft_pvc
 614,hard_tiles
@@ -619,8 +783,13 @@
 617,soft_pvc
 618,hard_tiles_large_space
 619,carpet
+<<<<<<< HEAD
 620,carpet
 621,fine_concrete
+=======
+620,concrete
+621,soft_pvc
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 622,hard_tiles
 623,carpet
 624,hard_tiles_large_space
@@ -633,8 +802,13 @@
 631,soft_pvc
 632,fine_concrete
 633,soft_pvc
+<<<<<<< HEAD
 634,soft_pvc
 635,fine_concrete
+=======
+634,carpet
+635,soft_pvc
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 636,soft_pvc
 637,soft_tiles
 638,hard_tiles_large_space
@@ -644,19 +818,27 @@
 642,soft_tiles
 643,soft_pvc
 644,carpet
-645,carpet
+645,soft_pvc
 646,soft_pvc
 647,hard_tiles
 648,carpet
 649,carpet
 650,fine_concrete
 651,carpet
+<<<<<<< HEAD
 652,hard_tiles_large_space
+=======
+652,carpet
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 653,tiled
 654,soft_tiles
 655,carpet
 656,soft_pvc
+<<<<<<< HEAD
 657,fine_concrete
+=======
+657,tiled
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 658,fine_concrete
 659,fine_concrete
 660,fine_concrete
@@ -677,7 +859,7 @@
 675,soft_pvc
 676,carpet
 677,soft_pvc
-678,carpet
+678,soft_pvc
 679,soft_pvc
 680,soft_pvc
 681,soft_pvc
@@ -697,6 +879,7 @@
 695,hard_tiles
 696,carpet
 697,carpet
+<<<<<<< HEAD
 698,fine_concrete
 699,carpet
 700,fine_concrete
@@ -705,6 +888,16 @@
 703,carpet
 704,fine_concrete
 705,carpet
+=======
+698,hard_tiles
+699,soft_pvc
+700,tiled
+701,carpet
+702,hard_tiles
+703,carpet
+704,tiled
+705,soft_pvc
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 706,carpet
 707,hard_tiles
 708,carpet
@@ -713,18 +906,30 @@
 711,fine_concrete
 712,carpet
 713,carpet
+<<<<<<< HEAD
 714,fine_concrete
 715,fine_concrete
 716,hard_tiles
 717,hard_tiles
+=======
+714,tiled
+715,tiled
+716,tiled
+717,hard_tiles_large_space
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 718,hard_tiles
 719,soft_pvc
 720,fine_concrete
 721,hard_tiles
 722,carpet
 723,soft_pvc
+<<<<<<< HEAD
 724,soft_tiles
 725,carpet
+=======
+724,tiled
+725,soft_pvc
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 726,carpet
 727,soft_pvc
 728,carpet
@@ -742,7 +947,7 @@
 740,carpet
 741,hard_tiles
 742,hard_tiles
-743,soft_pvc
+743,fine_concrete
 744,fine_concrete
 745,carpet
 746,hard_tiles
@@ -763,14 +968,24 @@
 761,soft_pvc
 762,fine_concrete
 763,tiled
+<<<<<<< HEAD
 764,soft_pvc
 765,carpet
 766,carpet
+=======
+764,carpet
+765,soft_pvc
+766,soft_pvc
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 767,concrete
 768,carpet
 769,soft_pvc
 770,soft_pvc
+<<<<<<< HEAD
 771,concrete
+=======
+771,soft_pvc
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 772,fine_concrete
 773,hard_tiles
 774,carpet
@@ -782,7 +997,7 @@
 780,hard_tiles
 781,carpet
 782,carpet
-783,carpet
+783,soft_pvc
 784,soft_pvc
 785,concrete
 786,carpet
@@ -793,6 +1008,7 @@
 791,tiled
 792,hard_tiles
 793,soft_pvc
+<<<<<<< HEAD
 794,fine_concrete
 795,soft_pvc
 796,carpet
@@ -807,6 +1023,22 @@
 805,concrete
 806,soft_pvc
 807,fine_concrete
+=======
+794,hard_tiles
+795,soft_pvc
+796,carpet
+797,soft_pvc
+798,concrete
+799,hard_tiles
+800,tiled
+801,carpet
+802,hard_tiles_large_space
+803,hard_tiles
+804,soft_pvc
+805,concrete
+806,concrete
+807,hard_tiles
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 808,carpet
 809,carpet
 810,concrete
@@ -820,7 +1052,7 @@
 818,carpet
 819,fine_concrete
 820,hard_tiles_large_space
-821,carpet
+821,soft_pvc
 822,hard_tiles
 823,fine_concrete
 824,fine_concrete
@@ -845,12 +1077,21 @@
 843,concrete
 844,carpet
 845,soft_pvc
+<<<<<<< HEAD
 846,hard_tiles
 847,fine_concrete
 848,hard_tiles
 849,fine_concrete
 850,soft_pvc
 851,hard_tiles_large_space
+=======
+846,concrete
+847,hard_tiles
+848,hard_tiles_large_space
+849,carpet
+850,tiled
+851,concrete
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 852,carpet
 853,carpet
 854,carpet
@@ -863,12 +1104,17 @@
 861,carpet
 862,carpet
 863,soft_pvc
+<<<<<<< HEAD
 864,hard_tiles
+=======
+864,hard_tiles_large_space
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 865,carpet
 866,fine_concrete
 867,carpet
 868,fine_concrete
 869,hard_tiles
+<<<<<<< HEAD
 870,carpet
 871,fine_concrete
 872,fine_concrete
@@ -877,6 +1123,16 @@
 875,carpet
 876,fine_concrete
 877,fine_concrete
+=======
+870,soft_pvc
+871,hard_tiles
+872,hard_tiles
+873,hard_tiles_large_space
+874,soft_pvc
+875,soft_pvc
+876,hard_tiles
+877,hard_tiles
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 878,soft_pvc
 879,carpet
 880,hard_tiles_large_space
@@ -885,8 +1141,13 @@
 883,soft_pvc
 884,carpet
 885,carpet
+<<<<<<< HEAD
 886,hard_tiles
 887,concrete
+=======
+886,hard_tiles_large_space
+887,hard_tiles
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 888,soft_tiles
 889,hard_tiles
 890,soft_tiles
@@ -917,7 +1178,11 @@
 915,soft_tiles
 916,fine_concrete
 917,concrete
+<<<<<<< HEAD
 918,soft_pvc
+=======
+918,concrete
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 919,soft_pvc
 920,soft_tiles
 921,soft_pvc
@@ -927,8 +1192,13 @@
 925,hard_tiles
 926,carpet
 927,soft_pvc
+<<<<<<< HEAD
 928,fine_concrete
 929,carpet
+=======
+928,hard_tiles
+929,soft_pvc
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 930,hard_tiles
 931,hard_tiles
 932,hard_tiles_large_space
@@ -936,7 +1206,11 @@
 934,soft_tiles
 935,hard_tiles_large_space
 936,hard_tiles
+<<<<<<< HEAD
 937,soft_tiles
+=======
+937,soft_pvc
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 938,hard_tiles
 939,soft_pvc
 940,carpet
@@ -959,8 +1233,13 @@
 957,carpet
 958,carpet
 959,soft_pvc
+<<<<<<< HEAD
 960,fine_concrete
 961,hard_tiles
+=======
+960,tiled
+961,concrete
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 962,concrete
 963,carpet
 964,fine_concrete
@@ -974,7 +1253,11 @@
 972,soft_tiles
 973,carpet
 974,carpet
+<<<<<<< HEAD
 975,carpet
+=======
+975,soft_pvc
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 976,tiled
 977,soft_pvc
 978,soft_pvc
@@ -990,9 +1273,15 @@
 988,carpet
 989,carpet
 990,hard_tiles
+<<<<<<< HEAD
 991,fine_concrete
 992,carpet
 993,carpet
+=======
+991,tiled
+992,concrete
+993,soft_pvc
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 994,soft_pvc
 995,hard_tiles_large_space
 996,soft_pvc
@@ -1007,18 +1296,30 @@
 1005,fine_concrete
 1006,soft_pvc
 1007,soft_pvc
+<<<<<<< HEAD
 1008,carpet
 1009,fine_concrete
+=======
+1008,soft_pvc
+1009,tiled
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1010,carpet
 1011,hard_tiles
 1012,soft_pvc
 1013,concrete
 1014,carpet
 1015,carpet
+<<<<<<< HEAD
 1016,soft_tiles
 1017,soft_pvc
 1018,concrete
 1019,fine_concrete
+=======
+1016,tiled
+1017,carpet
+1018,concrete
+1019,hard_tiles
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1020,carpet
 1021,hard_tiles
 1022,fine_concrete
@@ -1030,8 +1331,13 @@
 1028,concrete
 1029,soft_pvc
 1030,carpet
+<<<<<<< HEAD
 1031,hard_tiles
 1032,fine_concrete
+=======
+1031,concrete
+1032,tiled
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1033,hard_tiles
 1034,carpet
 1035,carpet
@@ -1041,9 +1347,15 @@
 1039,hard_tiles
 1040,carpet
 1041,carpet
+<<<<<<< HEAD
 1042,hard_tiles
 1043,carpet
 1044,carpet
+=======
+1042,hard_tiles_large_space
+1043,carpet
+1044,soft_pvc
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1045,carpet
 1046,soft_tiles
 1047,carpet
@@ -1053,8 +1365,13 @@
 1051,carpet
 1052,fine_concrete
 1053,carpet
+<<<<<<< HEAD
 1054,carpet
 1055,fine_concrete
+=======
+1054,soft_pvc
+1055,hard_tiles
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1056,soft_pvc
 1057,soft_pvc
 1058,hard_tiles_large_space
@@ -1067,8 +1384,13 @@
 1065,soft_pvc
 1066,concrete
 1067,soft_pvc
+<<<<<<< HEAD
 1068,hard_tiles
 1069,fine_concrete
+=======
+1068,hard_tiles_large_space
+1069,hard_tiles
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1070,concrete
 1071,soft_pvc
 1072,fine_concrete
@@ -1079,26 +1401,35 @@
 1077,hard_tiles
 1078,soft_tiles
 1079,soft_pvc
+<<<<<<< HEAD
 1080,hard_tiles_large_space
 1081,fine_concrete
 1082,fine_concrete
 1083,soft_pvc
 1084,fine_concrete
 1085,fine_concrete
+=======
+1080,concrete
+1081,hard_tiles
+1082,fine_concrete
+1083,tiled
+1084,hard_tiles
+1085,hard_tiles
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1086,hard_tiles
 1087,concrete
 1088,soft_pvc
 1089,carpet
 1090,hard_tiles_large_space
 1091,carpet
-1092,carpet
+1092,soft_pvc
 1093,carpet
 1094,carpet
 1095,fine_concrete
 1096,soft_pvc
 1097,carpet
 1098,carpet
-1099,carpet
+1099,soft_pvc
 1100,soft_pvc
 1101,fine_concrete
 1102,carpet
@@ -1111,8 +1442,13 @@
 1109,hard_tiles
 1110,tiled
 1111,hard_tiles
+<<<<<<< HEAD
 1112,fine_concrete
 1113,carpet
+=======
+1112,tiled
+1113,soft_pvc
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1114,soft_tiles
 1115,carpet
 1116,concrete
@@ -1120,8 +1456,13 @@
 1118,carpet
 1119,carpet
 1120,carpet
+<<<<<<< HEAD
 1121,hard_tiles
 1122,fine_concrete
+=======
+1121,hard_tiles_large_space
+1122,tiled
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1123,concrete
 1124,soft_pvc
 1125,soft_pvc
@@ -1134,7 +1475,11 @@
 1132,soft_pvc
 1133,soft_pvc
 1134,carpet
+<<<<<<< HEAD
 1135,soft_tiles
+=======
+1135,fine_concrete
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1136,carpet
 1137,fine_concrete
 1138,carpet
@@ -1143,15 +1488,24 @@
 1141,hard_tiles_large_space
 1142,fine_concrete
 1143,soft_pvc
+<<<<<<< HEAD
 1144,carpet
 1145,fine_concrete
 1146,fine_concrete
 1147,soft_pvc
 1148,fine_concrete
+=======
+1144,soft_pvc
+1145,hard_tiles
+1146,fine_concrete
+1147,soft_pvc
+1148,hard_tiles
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1149,soft_pvc
 1150,tiled
 1151,carpet
 1152,carpet
+<<<<<<< HEAD
 1153,soft_pvc
 1154,fine_concrete
 1155,carpet
@@ -1160,13 +1514,27 @@
 1158,soft_tiles
 1159,hard_tiles_large_space
 1160,fine_concrete
+=======
+1153,concrete
+1154,hard_tiles
+1155,hard_tiles
+1156,concrete
+1157,soft_pvc
+1158,fine_concrete
+1159,soft_pvc
+1160,tiled
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1161,soft_pvc
 1162,soft_pvc
 1163,hard_tiles_large_space
 1164,soft_pvc
 1165,concrete
 1166,carpet
+<<<<<<< HEAD
 1167,soft_tiles
+=======
+1167,fine_concrete
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1168,carpet
 1169,fine_concrete
 1170,soft_tiles
@@ -1174,6 +1542,7 @@
 1172,soft_tiles
 1173,fine_concrete
 1174,carpet
+<<<<<<< HEAD
 1175,carpet
 1176,fine_concrete
 1177,fine_concrete
@@ -1189,6 +1558,23 @@
 1187,fine_concrete
 1188,carpet
 1189,fine_concrete
+=======
+1175,soft_pvc
+1176,hard_tiles
+1177,tiled
+1178,soft_pvc
+1179,hard_tiles
+1180,hard_tiles
+1181,hard_tiles_large_space
+1182,tiled
+1183,hard_tiles
+1184,concrete
+1185,carpet
+1186,carpet
+1187,tiled
+1188,soft_pvc
+1189,tiled
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1190,fine_concrete
 1191,fine_concrete
 1192,soft_pvc
@@ -1204,8 +1590,13 @@
 1202,soft_pvc
 1203,concrete
 1204,concrete
+<<<<<<< HEAD
 1205,soft_pvc
 1206,hard_tiles
+=======
+1205,concrete
+1206,hard_tiles_large_space
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1207,hard_tiles
 1208,soft_pvc
 1209,carpet
@@ -1228,12 +1619,19 @@
 1226,soft_pvc
 1227,soft_tiles
 1228,carpet
+<<<<<<< HEAD
 1229,soft_pvc
 1230,hard_tiles
 1231,hard_tiles
+=======
+1229,carpet
+1230,hard_tiles_large_space
+1231,hard_tiles_large_space
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1232,carpet
-1233,carpet
+1233,concrete
 1234,soft_tiles
+<<<<<<< HEAD
 1235,soft_pvc
 1236,carpet
 1237,hard_tiles
@@ -1241,6 +1639,15 @@
 1239,carpet
 1240,carpet
 1241,soft_tiles
+=======
+1235,fine_concrete
+1236,soft_pvc
+1237,hard_tiles
+1238,soft_pvc
+1239,carpet
+1240,soft_pvc
+1241,tiled
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1242,carpet
 1243,hard_tiles_large_space
 1244,fine_concrete
@@ -1258,25 +1665,34 @@
 1256,hard_tiles_large_space
 1257,soft_pvc
 1258,soft_pvc
+<<<<<<< HEAD
 1259,hard_tiles
+=======
+1259,hard_tiles_large_space
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1260,soft_pvc
 1261,carpet
 1262,carpet
 1263,carpet
 1264,carpet
 1265,carpet
-1266,carpet
+1266,soft_pvc
 1267,hard_tiles
 1268,carpet
 1269,soft_pvc
 1270,carpet
 1271,carpet
-1272,carpet
+1272,soft_pvc
 1273,fine_concrete
 1274,soft_pvc
 1275,soft_pvc
+<<<<<<< HEAD
 1276,carpet
 1277,hard_tiles_large_space
+=======
+1276,soft_pvc
+1277,soft_pvc
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1278,hard_tiles
 1279,hard_tiles
 1280,soft_pvc
@@ -1284,8 +1700,13 @@
 1282,soft_pvc
 1283,hard_tiles
 1284,soft_tiles
+<<<<<<< HEAD
 1285,fine_concrete
 1286,fine_concrete
+=======
+1285,hard_tiles
+1286,hard_tiles
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1287,carpet
 1288,soft_pvc
 1289,soft_pvc
@@ -1321,8 +1742,13 @@
 1319,soft_pvc
 1320,soft_tiles
 1321,carpet
+<<<<<<< HEAD
 1322,fine_concrete
 1323,carpet
+=======
+1322,hard_tiles
+1323,concrete
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1324,soft_pvc
 1325,soft_pvc
 1326,soft_tiles
@@ -1377,6 +1803,7 @@
 1375,fine_concrete
 1376,soft_pvc
 1377,soft_pvc
+<<<<<<< HEAD
 1378,hard_tiles
 1379,fine_concrete
 1380,fine_concrete
@@ -1385,15 +1812,31 @@
 1383,carpet
 1384,fine_concrete
 1385,carpet
+=======
+1378,hard_tiles_large_space
+1379,hard_tiles
+1380,hard_tiles
+1381,soft_pvc
+1382,soft_pvc
+1383,carpet
+1384,tiled
+1385,soft_pvc
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1386,carpet
 1387,hard_tiles
 1388,fine_concrete
 1389,soft_pvc
 1390,carpet
 1391,soft_pvc
+<<<<<<< HEAD
 1392,hard_tiles
 1393,soft_pvc
 1394,hard_tiles
+=======
+1392,hard_tiles_large_space
+1393,soft_pvc
+1394,hard_tiles_large_space
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1395,carpet
 1396,hard_tiles
 1397,fine_concrete
@@ -1401,6 +1844,7 @@
 1399,soft_tiles
 1400,carpet
 1401,soft_pvc
+<<<<<<< HEAD
 1402,fine_concrete
 1403,soft_pvc
 1404,soft_pvc
@@ -1409,6 +1853,16 @@
 1407,fine_concrete
 1408,carpet
 1409,fine_concrete
+=======
+1402,hard_tiles
+1403,soft_pvc
+1404,soft_pvc
+1405,fine_concrete
+1406,tiled
+1407,hard_tiles
+1408,carpet
+1409,hard_tiles
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1410,carpet
 1411,carpet
 1412,soft_pvc
@@ -1420,6 +1874,7 @@
 1418,soft_pvc
 1419,soft_pvc
 1420,soft_pvc
+<<<<<<< HEAD
 1421,hard_tiles_large_space
 1422,carpet
 1423,soft_pvc
@@ -1430,6 +1885,18 @@
 1428,carpet
 1429,carpet
 1430,soft_pvc
+=======
+1421,carpet
+1422,soft_pvc
+1423,soft_pvc
+1424,soft_pvc
+1425,concrete
+1426,concrete
+1427,carpet
+1428,carpet
+1429,carpet
+1430,soft_tiles
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1431,carpet
 1432,carpet
 1433,carpet
@@ -1437,10 +1904,17 @@
 1435,carpet
 1436,soft_tiles
 1437,soft_tiles
+<<<<<<< HEAD
 1438,fine_concrete
 1439,fine_concrete
 1440,hard_tiles
 1441,carpet
+=======
+1438,hard_tiles
+1439,tiled
+1440,hard_tiles
+1441,soft_pvc
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1442,soft_tiles
 1443,soft_pvc
 1444,soft_pvc
@@ -1452,8 +1926,13 @@
 1450,fine_concrete
 1451,carpet
 1452,soft_pvc
+<<<<<<< HEAD
 1453,carpet
 1454,fine_concrete
+=======
+1453,soft_pvc
+1454,tiled
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1455,soft_pvc
 1456,soft_pvc
 1457,hard_tiles
@@ -1514,7 +1993,7 @@
 1512,carpet
 1513,carpet
 1514,soft_pvc
-1515,carpet
+1515,soft_pvc
 1516,carpet
 1517,carpet
 1518,fine_concrete
@@ -1528,8 +2007,13 @@
 1526,soft_pvc
 1527,soft_pvc
 1528,soft_pvc
+<<<<<<< HEAD
 1529,carpet
 1530,hard_tiles
+=======
+1529,soft_pvc
+1530,concrete
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1531,soft_pvc
 1532,carpet
 1533,soft_pvc
@@ -1552,17 +2036,25 @@
 1550,fine_concrete
 1551,hard_tiles_large_space
 1552,tiled
+<<<<<<< HEAD
 1553,fine_concrete
 1554,soft_pvc
 1555,hard_tiles
 1556,carpet
 1557,soft_tiles
+=======
+1553,hard_tiles
+1554,soft_pvc
+1555,hard_tiles
+1556,soft_pvc
+1557,carpet
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1558,carpet
 1559,soft_pvc
 1560,hard_tiles
 1561,carpet
 1562,carpet
-1563,carpet
+1563,soft_pvc
 1564,hard_tiles
 1565,carpet
 1566,soft_pvc
@@ -1574,7 +2066,7 @@
 1572,carpet
 1573,hard_tiles
 1574,soft_pvc
-1575,hard_tiles
+1575,hard_tiles_large_space
 1576,fine_concrete
 1577,concrete
 1578,carpet
@@ -1584,7 +2076,7 @@
 1582,soft_pvc
 1583,hard_tiles
 1584,carpet
-1585,soft_tiles
+1585,fine_concrete
 1586,tiled
 1587,fine_concrete
 1588,carpet
@@ -1598,15 +2090,24 @@
 1596,carpet
 1597,soft_tiles
 1598,tiled
+<<<<<<< HEAD
 1599,fine_concrete
 1600,carpet
+=======
+1599,hard_tiles
+1600,soft_pvc
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1601,hard_tiles
 1602,carpet
 1603,fine_concrete
 1604,soft_pvc
 1605,soft_pvc
 1606,soft_pvc
+<<<<<<< HEAD
 1607,soft_tiles
+=======
+1607,carpet
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1608,tiled
 1609,hard_tiles
 1610,soft_pvc
@@ -1625,25 +2126,42 @@
 1623,soft_pvc
 1624,carpet
 1625,soft_pvc
+<<<<<<< HEAD
 1626,carpet
 1627,soft_pvc
+=======
+1626,soft_pvc
+1627,carpet
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1628,carpet
 1629,concrete
 1630,carpet
 1631,carpet
 1632,hard_tiles
+<<<<<<< HEAD
 1633,carpet
 1634,fine_concrete
 1635,fine_concrete
 1636,hard_tiles
 1637,fine_concrete
+=======
+1633,soft_pvc
+1634,hard_tiles
+1635,hard_tiles
+1636,hard_tiles_large_space
+1637,hard_tiles
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1638,soft_pvc
 1639,soft_pvc
 1640,hard_tiles
 1641,soft_pvc
 1642,soft_pvc
 1643,hard_tiles
+<<<<<<< HEAD
 1644,fine_concrete
+=======
+1644,tiled
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1645,carpet
 1646,hard_tiles
 1647,soft_tiles
@@ -1669,20 +2187,25 @@
 1667,carpet
 1668,concrete
 1669,carpet
-1670,carpet
+1670,soft_pvc
 1671,soft_pvc
 1672,carpet
 1673,fine_concrete
 1674,carpet
 1675,hard_tiles_large_space
 1676,soft_pvc
+<<<<<<< HEAD
 1677,fine_concrete
+=======
+1677,tiled
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1678,soft_pvc
 1679,soft_pvc
 1680,fine_concrete
 1681,carpet
 1682,carpet
 1683,soft_pvc
+<<<<<<< HEAD
 1684,hard_tiles_large_space
 1685,hard_tiles_large_space
 1686,fine_concrete
@@ -1692,6 +2215,17 @@
 1690,carpet
 1691,hard_tiles_large_space
 1692,soft_pvc
+=======
+1684,concrete
+1685,carpet
+1686,tiled
+1687,soft_pvc
+1688,tiled
+1689,fine_concrete
+1690,carpet
+1691,hard_tiles
+1692,soft_tiles
+>>>>>>> c38c61d303eb9aef8161ac8cfa767e0ccd457b67
 1693,carpet
 1694,fine_concrete
 1695,carpet
